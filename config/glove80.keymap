@@ -162,7 +162,7 @@
             >;
         };
 
-k_layer {
+kl_layer {
   bindings = <
   &none            &none               &none           &none           &none                                                                                                       &none   &none   &none  &none   &none
   &none            &none               &none           &none           &none           &none                                                                             &none     &none   &none   &none  &none   &none
