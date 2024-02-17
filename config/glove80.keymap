@@ -148,5 +148,32 @@
             &kp N5   &kp N1   &kp N7   &kp N3   &kp N9            &kp N7   &kp N8   &kp N9      &kp N9   &kp N8   &kp N7            &kp N9   &kp N3   &kp N7   &kp N1   &kp N5
             >;
         };
+
+        k_layer {
+            bindings = <
+            &none            &none               &none           &none           &none                                                                                                       &none   &none   &none  &none   &none
+            &none            &none               &none           &none           &none           &none                                                                             &none     &none   &none   &none  &none   &none
+            &none            &none               &none           &none           &none           &none                                                                             &none     &none   &none   &none  &none   &none
+            &none            &none               &none           &none           &none           &none                                                                             &none     &none   &none   &none  &none   &none
+            &none            &none               &none           &none           &none           &none       &none      &none      &none         &none      &none      &none       &none     &none   &none   &none  &none   &none
+            &none            &none               &none           &none           &none                       &none      &none      &none         &none      &none      &none                 &none   &none   &none  &none   &none
+            >;
+        };
+
     };
 };
+
+
+
+
+// Blank layer
+//k_layer {
+//  bindings = <
+//  &none            &none               &none           &none           &none                                                                                                       &none   &none   &none  &none   &none
+//  &none            &none               &none           &none           &none           &none                                                                             &none     &none   &none   &none  &none   &none
+//  &none            &none               &none           &none           &none           &none                                                                             &none     &none   &none   &none  &none   &none
+//  &none            &none               &none           &none           &none           &none                                                                             &none     &none   &none   &none  &none   &none
+//  &none            &none               &none           &none           &none           &none       &none      &none      &none         &none      &none      &none       &none     &none   &none   &none  &none   &none
+//  &none            &none               &none           &none           &none                       &none      &none      &none         &none      &none      &none                 &none   &none   &none  &none   &none
+//  >;
+//};
